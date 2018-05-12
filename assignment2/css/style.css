@@ -1,0 +1,60 @@
+
+body{
+	font-family: 'Pangolin', cursive;
+}
+h1{
+	text-align: center;	
+}
+
+.row{
+	width:100%;
+	margin-top: 100px;
+}
+.row div{
+	border:1.5px solid black;
+	margin:10px 10px 10px 10px;
+}
+.row span{
+	font-size:18px;
+	background-color: #cea354;
+	font-weight: bold;
+	float: right;
+	padding:0px 20px 0px 20px;
+    border-bottom: 1.5px solid black;
+    border-left: 1.5px solid black;
+}
+.row p{
+	padding:5px;
+}
+
+/* large device */
+@media(min-width:992px)
+{
+	.col-lg-4{
+		float:left;
+		width:30%;
+	}
+
+}
+/* medium device */
+@media(min-width:768px) and (max-width:991px)
+{
+	.col-md-6,.col-md-12{
+		float:left;
+	}
+	.col-md-6{	
+		width:47%;
+	}
+	.col-md-12{
+		width:96%;
+	}
+}
+/* Small device */
+@media(max-width: 767px){
+	.col-sm-12{
+		float:left;
+		width:100%;
+	}
+}
+
+
